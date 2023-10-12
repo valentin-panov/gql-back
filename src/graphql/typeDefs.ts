@@ -26,7 +26,7 @@ export const typeDefs = gql`
     editProfile(name: String!, email: String!): User!
     sendMessage(text: String!): [Message]
   }
-  
+
   type Subscription {
     messageSent: [Message]
   }
