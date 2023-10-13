@@ -42,5 +42,6 @@ import { resolvers, typeDefs } from './graphql';
   server.applyMiddleware({ app });
 
   const PORT = 4000;
-  httpServer.listen(PORT, () => console.log(`Server is now running on http://localhost:${PORT}/graphql`));
+  const HOSTNAME = 'api.lvh.me'
+  httpServer.listen(PORT, HOSTNAME, () => console.log(`Server is now running on http://${HOSTNAME}:${PORT}/graphql`));
 })();

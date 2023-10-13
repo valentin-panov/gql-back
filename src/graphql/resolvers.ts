@@ -12,24 +12,24 @@ const db = {
   ],
   "profile": {
     "id": "id",
-    "name": "First Name",
-    "email": "email@email.ru"
+    "name": "Name",
+    "email": "email@email.com"
   },
   "users": [
     {
       "id": "1",
       "name": "User 1",
-      "email": "email@email.ru"
+      "email": "email@email.com"
     },
     {
       "id": "2",
       "name": "User 2",
-      "email": "email@email.ru"
+      "email": "email@email.com"
     },
     {
       "id": "3",
       "name": "User 3",
-      "email": "email@email.ru"
+      "email": "email@email.com"
     }
   ],
   "messages": [
